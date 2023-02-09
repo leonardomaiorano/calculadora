@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #252525;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outcome{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    color: #000;
+    background-color: rgba(150, 249, 23, 0.7);
+    margin: 5px;
+    padding: 5px;
+    max-width: 215px;
+    text-align: right;
+    min-height: 50px;
+    overflow-wrap: break-word;
+}
+
+
+.button-style {
+    font-family: 'Share Tech Mono', monospace;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #bcbcbc;
+    border: none;
+    margin: 2px;
+}
+
+.calculator {
+    position: absolute;
+    background-color: #000;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.button-row {
+    height: 106px;
+}
+
+.button-col{
+    width: 106px;
+}
